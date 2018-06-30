@@ -1,8 +1,8 @@
-const students = ['Gerald','Shun','Ali'];
+const students = ["Gerald", "Shun", "Ali"];
 
-students.forEach((item) => {
+students.forEach(item => {
   const li = document.createElement("LI");
-  const text = document.createTextNode('item');
+  const text = document.createTextNode(item);
   li.appendChild(text);
   document.getElementById("list").appendChild(li);
-})
+});

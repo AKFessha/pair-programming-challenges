@@ -1,4 +1,4 @@
 const paragraph = document.getElementsByTagName("p")[0];
-const paragraphText = document.getElementsByTagName("p")[0].innerHTML
+const paragraphText = paragraph.innerHTML;
 
-alert(paragraphText)
+alert(paragraphText);
