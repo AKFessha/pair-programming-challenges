@@ -3,7 +3,7 @@ var images = document.getElementsByTagName("img");
 
 for (var i = 0; i < buttons.length; i++) {
   buttons[i].addEventListener("click", function(event) {
-    event.target.disabled = true;
+    event.target.disabled = false;
     for (var i = 0; i < images.length; i++) {
       images[i].classList.remove("show");
     }
